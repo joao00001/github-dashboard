@@ -43,14 +43,14 @@ Para executar o Hub do Dev na sua máquina, siga estes passos:
 ### 2. Clone o Repositório
 
 ```bash
-git clone [https://github.com/seu-usuario/hub-do-dev.git](https://github.com/seu-usuario/hub-do-dev.git)
+git clone [https://github.com/joao00001/github-dashboard.git](https://github.com/joao00001/github-dashboard.git)
 cd hub-do-dev
 ```
 
 ### 3. Instale as Dependências
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### 4. Configure o Token do GitHub
@@ -68,7 +68,7 @@ Para evitar o baixo limite de requisições da API do GitHub (60/hora), é **alt
 ### 5. Inicie a Aplicação
 
 ```bash
-npm start
+pnpm start
 ```
 
 A aplicação estará disponível em `http://localhost:3000`.
